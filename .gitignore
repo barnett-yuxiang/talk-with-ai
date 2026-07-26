@@ -2,3 +2,5 @@
 .qodo
 scratch/*
 !scratch/.keep
+data/*
+!data/.keep
