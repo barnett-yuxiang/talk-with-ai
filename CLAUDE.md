@@ -11,10 +11,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 这不是一个产品代码库，而是用户与 AI agent 的协作对话工作区。话题不限：讨论技术方案、写 demo 验证想法、评估选型等。
 
-两条核心规则：
+三条核心规则：
 
 1. **Demo 是一次性的**：演示代码写到 `scratch/`（已 gitignore），给用户看完即弃，不提交、不长期维护。
 2. **有价值的结论要沉淀为 memory**：讨论得出的可靠结论（选型决定、方案设计、踩坑经验）写入本仓库的 memory 系统，参考 OpenClaw 的 markdown 记忆管理方式。
+3. **外部素材放 `data/`**（已 gitignore）：下载的文章、视频、音频、CSV 等原始素材统一放这里，供讨论和 demo 使用；不提交到 git。
 
 ## Memory 系统
 
